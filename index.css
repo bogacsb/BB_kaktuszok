@@ -23,17 +23,28 @@ nav{
     background-color: rgb(0, 119, 255);
     padding: 20px;
     border-radius: 5px;
-    
+    margin-bottom: 10px;
 }
 
 a{
     text-decoration: none;
     color: rgb(245, 245, 154);
     padding-right: 40px;
+    
 }
 
 .grid{
+    background-color: aqua;
+    min-height: 600px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
 
+
+}
+
+img{
+    width: 100%;
+    height: 100%;
 }
 
 h1, footer{
@@ -46,5 +57,5 @@ h1, footer{
 
 footer{
     padding: 10px;
-   
+    margin-top: 10px;
 }
